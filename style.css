@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1 {
+    margin: 10px;
+}
+
+.header1 a {
+    font-size: 26px;
+    color: rgb(156, 106, 14);
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN BODY CONTENT */
+
+.maincontainer .main_header {
+    text-align: center;
+}
+
+.productcontainer {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 30px;
+}
+
+.product {
+    border: 1px solid grey;
+    width: 231px;
+}
+
+.product_img img {
+    width: 230px;
+    height: 200px;
+}
+
+.product_content h2 {
+    font-size: 15px;
+    color: rgb(121, 120, 120);
+}
+
+.product_content {
+    text-align: center;
+    margin: 3px;
+    padding: 16px;
+}
+
+.product_content button {
+    margin: 3px;
+    width: 130px;
+}
+
+.product_content button a {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    background-color: bisque;
+    color: rgb(154, 110, 28);
+}
+
+.product_content button {
+    background-color: bisque;
+}
+
+
+
+
+
+/* //Pop Content */
+
+.pop_container {
+    border: 1px solid grey;
+    background-color: rgb(171, 171, 171);
+    width: 700px;
+    height: 262px;
+    display: flex;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+}
+
+
+.pop_container img {
+    width: 270px;
+    height: 260px;
+    float: left;
+}
+
+.pop_container h2 {
+    font-size: 30px;
+    color: rgb(72, 72, 72);
+    margin: 10px 50px;
+    text-align: right;
+}
+
+.pop_container h4 {
+    font-size: 25px;
+    columns: orange;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.pop_container button a {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    background-color: bisque;
+    color: rgb(154, 110, 28);
+    text-align: center;
+}
+
+.pop_container button {
+    background-color: bisque;
+}
+
+.pop_container button {
+    margin: 10px 80px;
+    width: 130px;
+}
+
+.pop_container {
+    display: none;
+}
